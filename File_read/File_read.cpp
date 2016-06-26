@@ -1,4 +1,4 @@
-// File_read.cpp: определяет точку входа для консольного приложения.
+// File_read.cpp: Г®ГЇГ°ГҐГ¤ГҐГ«ГїГҐГІ ГІГ®Г·ГЄГі ГўГµГ®Г¤Г  Г¤Г«Гї ГЄГ®Г­Г±Г®Г«ГјГ­Г®ГЈГ® ГЇГ°ГЁГ«Г®Г¦ГҐГ­ГЁГї.
 //
 
 #include "stdafx.h"
@@ -26,7 +26,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	if (ifs)
 	{
 		transform(in_char_iter, eos, out_file_iter, [](const char& ch){
-			return tolower(ch);
+			return toupper(ch);
 		});
 	}
 	else
